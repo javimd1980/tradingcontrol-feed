@@ -1,0 +1,31 @@
+{
+  "updatedAt": "2026-11-25T16:55:57.644Z",
+  "asOfDate": "2026-11-25",
+  "equity": 101600.49,
+  "positions": [
+    {
+      "symbol": "AAPL",
+      "stopPrice": 333.1379800146951,
+      "currentPrice": 348.43,
+      "qty": 65.521258
+    },
+    {
+      "symbol": "COST",
+      "stopPrice": 1054.4169322441971,
+      "currentPrice": 1091.275,
+      "qty": 20.373791
+    },
+    {
+      "symbol": "PG",
+      "stopPrice": 164.74119619447671,
+      "currentPrice": 173.76,
+      "qty": 132.69639
+    },
+    {
+      "symbol": "WMT",
+      "stopPrice": 123.53148147007647,
+      "currentPrice": 132.02,
+      "qty": 175.726335
+    }
+  ]
+}
