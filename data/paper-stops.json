@@ -1,0 +1,126 @@
+{
+  "updatedAt": "2026-11-28T01:38:16.659Z",
+  "asOfDate": "2026-11-27",
+  "connection": {
+    "broker": "Alpaca Paper",
+    "mode": "Solo lectura",
+    "status": "connected"
+  },
+  "account": {
+    "equity": 102663.53,
+    "lastEquity": 101893.60699595,
+    "cash": 10280.79,
+    "buyingPower": 112944.32,
+    "initialEquity": 100000
+  },
+  "positions": [
+    {
+      "symbol": "AAPL",
+      "qty": 65.521258,
+      "avgEntryPrice": 349.38,
+      "currentPrice": 359.25,
+      "marketValue": 23538.511937,
+      "unrealizedPl": 646.694817,
+      "unrealizedPlPct": 2.825,
+      "stopPrice": 335.28959013553253
+    },
+    {
+      "symbol": "COST",
+      "qty": 20.373791,
+      "avgEntryPrice": 1092.02055,
+      "currentPrice": 1099.49,
+      "marketValue": 22400.779467,
+      "unrealizedPl": 152.181014,
+      "unrealizedPlPct": 0.6839999999999999,
+      "stopPrice": 1055.0659040876153
+    },
+    {
+      "symbol": "PG",
+      "qty": 132.69639,
+      "avgEntryPrice": 168.2,
+      "currentPrice": 173.3,
+      "marketValue": 22996.284387,
+      "unrealizedPl": 676.751589,
+      "unrealizedPlPct": 3.032,
+      "stopPrice": 164.47944334515395
+    },
+    {
+      "symbol": "WMT",
+      "qty": 175.726335,
+      "avgEntryPrice": 126.67,
+      "currentPrice": 133.43,
+      "marketValue": 23447.164879,
+      "unrealizedPl": 1187.910025,
+      "unrealizedPlPct": 5.337,
+      "stopPrice": 125.16857975716508
+    }
+  ],
+  "orders": [
+    {
+      "id": "1762be6c-8d6c-43a3-9c45-923239225b03",
+      "symbol": "AAPL",
+      "side": "buy",
+      "type": "market",
+      "qty": 65.521258,
+      "filledAvgPrice": 349.38,
+      "status": "filled",
+      "submittedAt": "2026-11-23T12:49:16.013252Z"
+    },
+    {
+      "id": "f1c1874a-430c-4c70-ae82-3cfaccb5eae1",
+      "symbol": "COST",
+      "side": "buy",
+      "type": "market",
+      "qty": 20.373791,
+      "filledAvgPrice": 1092.02055,
+      "status": "filled",
+      "submittedAt": "2026-11-23T12:49:15.977805Z"
+    },
+    {
+      "id": "58671f38-ab77-4ddc-a7ad-3fe79be2b394",
+      "symbol": "PG",
+      "side": "buy",
+      "type": "market",
+      "qty": 132.69639,
+      "filledAvgPrice": 168.2,
+      "status": "filled",
+      "submittedAt": "2026-11-23T12:49:15.940904Z"
+    },
+    {
+      "id": "a5766fd9-d1b3-420c-979b-ef524b47b0e5",
+      "symbol": "WMT",
+      "side": "buy",
+      "type": "market",
+      "qty": 175.726335,
+      "filledAvgPrice": 126.67,
+      "status": "filled",
+      "submittedAt": "2026-11-23T12:49:15.906269Z"
+    }
+  ],
+  "decisions": [
+    {
+      "date": "2026-11-27",
+      "symbol": "AAPL",
+      "action": "Stop ATR activo",
+      "reason": "Stop calculado en 335.29"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "COST",
+      "action": "Stop ATR activo",
+      "reason": "Stop calculado en 1055.07"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "PG",
+      "action": "Stop ATR activo",
+      "reason": "Stop calculado en 164.48"
+    },
+    {
+      "date": "2026-11-27",
+      "symbol": "WMT",
+      "action": "Stop ATR activo",
+      "reason": "Stop calculado en 125.17"
+    }
+  ]
+}
